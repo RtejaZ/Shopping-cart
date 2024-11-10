@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="bundle-title">Bundle & Save</h2>
+    <div class="cart-options">
+      <div class="option" data-price="195">
+        <label>
+          <input type="checkbox" class="bundle-checkbox">
+          <p>1 Pair ₹ 195.00 <span class="discount">50% OFF</span></p>
+        </label>
+        <div class="content">
+          <div class="item">
+            <span>#1</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="item">
+            <span>#2</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="option" data-price="345">
+        <label>
+          <input type="checkbox" class="bundle-checkbox">
+          <p>2 Pairs ₹ 345.00 <span class="discount">25% OFF</span></p>
+        </label>
+        <div class="content">
+          <div class="item">
+            <span>#1</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="item">
+            <span>#2</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="option" data-price="528">
+        <label>
+          <input type="checkbox" class="bundle-checkbox">
+          <p>3 Pairs ₹ 528.00 <span class="discount">15% OFF</span></p>
+        </label>
+        <div class="content">
+          <div class="item">
+            <span>#1</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="item">
+            <span>#2</span>
+            <select class="size-select">
+              <option value="S">Size: S</option>
+              <option value="M">Size: M</option>
+              <option value="L">Size: L</option>
+            </select>
+            <select class="color-select">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="summary">
+      <p>Free 2 Day Shipping</p>
+      <h3>Total: ₹ <span id="total-amount">0.00</span></h3>
+    </div>
+    <button id="add-to-cart-btn">+ Add to Cart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
